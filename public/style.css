@@ -1,0 +1,12 @@
+.container {
+  padding-top: 100px;
+}
+
+form {
+  width: 320px;
+}
+
+button {
+  width: 100px;
+  box-shadow: 0 3px 3px;
+}

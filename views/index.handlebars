@@ -1,0 +1,12 @@
+<div class="d-flex flex-column align-items-center">
+  <h1 class="my-4 fw-bold">Account Login</h1>
+  <form action="/login" method="POSt" class="d-flex flex-column">
+    <input type="text" class="form-control mb-4 py-2 border border-dark rounded-0" placeholder="Email" name="email">
+    <input type="password" class="form-control mb-4 py-2 border border-dark rounded-0" placeholder="Password" name="password">
+    {{#if invalid}}
+    <p class="text-danger text-center">Username 或 Password 錯誤</p>
+    {{/if}}
+
+    <button type="submit" class="btn btn-outline-dark mx-auto mt-4 py-2 fw-bold">Sign in</button>
+  </form>
+</div>
