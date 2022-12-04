@@ -6,7 +6,7 @@ form {
   width: 320px;
 }
 
-button {
+button, a {
   width: 100px;
   box-shadow: 0 3px 3px;
 }

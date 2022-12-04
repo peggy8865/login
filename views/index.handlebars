@@ -6,7 +6,11 @@
     {{#if invalid}}
     <p class="text-danger text-center">Username 或 Password 錯誤</p>
     {{/if}}
+    {{#if loginRequired}}
+    <p class="text-danger text-center">請先登入帳號</p>
+    {{/if}}
 
     <button type="submit" class="btn btn-outline-dark mx-auto mt-4 py-2 fw-bold">Sign in</button>
   </form>
+  <a href="/lobby" class="btn btn-outline-dark mt-3 mx-auto py-2 fw-bold">回到大廳</a>
 </div>
